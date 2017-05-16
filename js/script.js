@@ -1,12 +1,29 @@
 console.log('hi')
 
-$('.material-icons').css('cursor', 'pointer')
+$('.material-icons, .startBtn').css('cursor', 'pointer')
 
 $('.hack').keydown(function(event){
 	if(event.keyCode == '13'){
 		$('.submitHack').click();
 		}
 });
+
+// start page
+
+
+// $('.startBtn').on('click',function(e){ 
+// 	$('.gif').show();
+// 	$('.audio').prop('volume','.05');
+// 	$('.audio').trigger('play');
+// setTimeout(function(e){
+// 	$('.gif').css('display', 'none');
+// 	},3000); 
+// 	$('.gamePage').css('display','block');
+// 	$('.pageOne').css('display', 'none')
+// });
+
+// end transistion
+
 
 
 var numberCounter = 60;
