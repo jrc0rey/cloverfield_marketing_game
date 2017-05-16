@@ -263,27 +263,43 @@ body{
 }
 
 .tagruato1{
+	background-image: url("../images/tagruatoClue1.png"); 
+	background-position: center;
+	background-size: cover;
+    background-repeat: no-repeat;
 	width: 75px;
 	height: 75px;
-	background-color: yellow;
+	// background-color: yellow;
 }
 
 .tagruato2{
+	background-image: url("../images/tagruatoClue2.png"); 
+	background-position: center;
+	background-size: cover;
+    background-repeat: no-repeat;
 	width: 75px;
 	height: 75px;
-	background-color: yellow;
+	// background-color: yellow;
 }
 
 .tagruato3{
+	background-image: url("../images/tagruatoClue3.png"); 
+	background-position: center;
+	background-size: cover;
+    background-repeat: no-repeat;
 	width: 75px;
 	height: 75px;
-	background-color: yellow;
+	// background-color: yellow;
 }
 
 .tagruato4{
+	background-image: url("../images/tagruatoClue4.png"); 
+	background-position: center;
+	background-size: cover;
+    background-repeat: no-repeat;
 	width: 75px;
 	height: 75px;
-	background-color: yellow;
+	// background-color: yellow;
 }
 
 .footer{

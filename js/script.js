@@ -99,7 +99,7 @@ function time(){
 			setTimeout(function(){
 			$(function(){
 				$(".secondMessage").typed({
-					strings: ['^2000 Hello Howard.</br> You no longer have access to the system. '],
+					strings: ['^2000 Hello RadioMan70.</br> You no longer have access to this project.</br>Triangulating...'],
 			typeSpeed: 4
 		});
 	})
