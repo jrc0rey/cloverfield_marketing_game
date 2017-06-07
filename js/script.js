@@ -17,7 +17,7 @@ $('.startBtn').on('click',function(e){
 setTimeout(function(e){
 	$('.gif').css('display', 'none');
 	},3000); 
-	$('.gamePage').css('display','block');
+	$('.gamePage').show();
 	$('.pageOne').css('display', 'none')
 });
 
@@ -26,7 +26,8 @@ setTimeout(function(e){
 // end game function
 
 function endGame(){
-	$('.gameOver').show()
+	$('.gamePage').hide();
+	$('.gameOver').show();
 	$('.siren').prop('volume','.05');
 	$('.siren').trigger('play');
 	$(function(){
