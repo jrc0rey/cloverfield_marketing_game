@@ -200,6 +200,7 @@ function ending(){
 			typeSpeed: 4
 		});
 	setTimeout(function(){
+			 $('.gamePage').hide()
         	 $('.youWon').show();
         },6000)
 	})
